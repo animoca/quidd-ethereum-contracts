@@ -22,6 +22,7 @@ contract QUIDDVouchersRedeemer is TokenLaunchpadVouchersRedeemer {
         address tokenHolder
     ) TokenLaunchpadVouchersRedeemer(vouchersContract, tokenContract, tokenHolder) {}
 
+    // todo change based on metadata
     /**
      * Validates the validity of the QUIDD voucher and returns its value.
      * @dev Reverts if the voucher is not a valid QUIDD voucher.
