@@ -57,7 +57,7 @@
     "@animoca/ethereum-contracts-core": "^1.1.2",
     "@animoca/ethereum-contracts-core-1.1.2": "npm:@animoca/ethereum-contracts-core@1.1.2",
     "@animoca/ethereum-hardhat-bootstrap": "^1.0.1",
-    "@animoca/tokenlaunchpad-ethereum-contracts": "file:.yalc/@animoca/tokenlaunchpad-ethereum-contracts",
+    "@animoca/tokenlaunchpad-ethereum-contracts-1.0.0": "npm:@animoca/tokenlaunchpad-ethereum-contracts@1.0.0",
     "@openzeppelin/contracts": "=3.4.0",
     "bip39": "^3.0.4",
     "ethereum-universal-forwarder": "=0.1.4",
