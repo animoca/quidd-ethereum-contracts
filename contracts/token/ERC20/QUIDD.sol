@@ -2,7 +2,7 @@
 
 pragma solidity >=0.7.6 <0.8.0;
 
-import {ManagedIdentity, Ownable} from "@animoca/ethereum-contracts-core-1.1.2/contracts/access/Ownable.sol";
+import {ManagedIdentity, Ownable, Recoverable} from "@animoca/ethereum-contracts-core-1.1.2/contracts/utils/Recoverable.sol";
 import {ERC20} from "@animoca/ethereum-contracts-assets-1.1.5/contracts/token/ERC20/ERC20.sol";
 import {IForwarderRegistry, UsingUniversalForwarding} from "ethereum-universal-forwarder/src/solc_0.7/ERC2771/UsingUniversalForwarding.sol";
 
@@ -10,7 +10,7 @@ import {IForwarderRegistry, UsingUniversalForwarding} from "ethereum-universal-f
  * @title QUIDD.
  * QUIDD is an ERC20 token with a constant pre-minted supply.
  */
-contract QUIDD is ERC20, UsingUniversalForwarding, Ownable {
+contract QUIDD is ERC20, UsingUniversalForwarding, Recoverable {
     /**
      * Constructor.
      * @dev Reverts if `values` and `recipients` have different lengths.
