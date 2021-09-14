@@ -3,7 +3,7 @@
 pragma solidity >=0.7.6 <0.8.0;
 
 // solhint-disable-next-line max-line-length
-import {IWrappedERC20, IERC1155InventoryBurnable, TokenLaunchpadVouchersRedeemer} from "@animoca/tokenlaunchpad-ethereum-contracts-1.0.0/contracts/token/ERC1155/TokenLaunchpadVouchersRedeemer.sol";
+import {IWrappedERC20, IERC1155InventoryBurnable, TokenLaunchpadVouchersRedeemer} from "@animoca/tokenlaunchpad-ethereum-contracts-1.1.0/contracts/token/ERC1155/TokenLaunchpadVouchersRedeemer.sol";
 
 /**
  * @title QUIDDVouchersRedeemer

@@ -62,10 +62,10 @@
     sort-package-json "^1.50.0"
     yesno "^0.3.1"
 
-"@animoca/tokenlaunchpad-ethereum-contracts-1.0.0@npm:@animoca/tokenlaunchpad-ethereum-contracts@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@animoca/tokenlaunchpad-ethereum-contracts/-/tokenlaunchpad-ethereum-contracts-1.0.0.tgz#6cedd47f70486aff29a56a276f8f6fba12d373e7"
-  integrity sha512-4A40vOLUKZtBE9kc/1EYKYX4/homc/mhWHJiNkH/j07eXVAazVqbERkZs9k3ggYssh7tV2K1rJsFK+v3Ps6/9A==
+"@animoca/tokenlaunchpad-ethereum-contracts-1.1.0@npm:@animoca/tokenlaunchpad-ethereum-contracts@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@animoca/tokenlaunchpad-ethereum-contracts/-/tokenlaunchpad-ethereum-contracts-1.1.0.tgz#4db48bf979e44ee4467801b57f5c40eb9d975e76"
+  integrity sha512-ilQWYwok5oAcMOD9UqV8z+07sIFx0ohFbFHDklb5TzHcB2YlGlHERVSW56fs2pRPfd8Qxpv+Yd6j8LnN3bOw8g==
 
 "@babel/code-frame@7.12.11":
   version "7.12.11"
